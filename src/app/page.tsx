@@ -69,7 +69,7 @@ export default function LandingPage() {
           handle: "@johnd",
           testimonial: "Excellent service and quick response. My roof looks brand new!",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/man-working-roof-with-drill_23-2148748770.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/man-working-roof-with-drill_23-2148748770.jpg?_wi=1",
           imageAlt: "professional residential roof inspection san diego",
         },
         {
@@ -77,7 +77,7 @@ export default function LandingPage() {
           handle: "@sarahp",
           testimonial: "Professional, clean, and honest. Highly recommend.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-roofers-working-with-helmets_23-2149343708.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-roofers-working-with-helmets_23-2149343708.jpg?_wi=1",
           imageAlt: "professional residential roof inspection san diego",
         },
         {
@@ -85,7 +85,7 @@ export default function LandingPage() {
           handle: "@mikel",
           testimonial: "San Diego Roofing Pros fixed my leaks efficiently.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-worker-with-helmet-working-roof_23-2149343663.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-worker-with-helmet-working-roof_23-2149343663.jpg?_wi=1",
           imageAlt: "professional residential roof inspection san diego",
         },
         {
@@ -93,7 +93,7 @@ export default function LandingPage() {
           handle: "@lindak",
           testimonial: "Fast, reliable, and professional team. A+ service.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-sitting-roof_23-2149343640.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-sitting-roof_23-2149343640.jpg?_wi=1",
           imageAlt: "professional residential roof inspection san diego",
         },
         {
@@ -101,7 +101,7 @@ export default function LandingPage() {
           handle: "@robertb",
           testimonial: "Highly satisfied with the roof repair quality.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/photo-wood-texture-pattern_58702-13126.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/photo-wood-texture-pattern_58702-13126.jpg?_wi=1",
           imageAlt: "professional residential roof inspection san diego",
         },
       ]}
@@ -111,7 +111,7 @@ export default function LandingPage() {
           href: "#contact",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/man-working-roof-with-drill_23-2148748770.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/man-working-roof-with-drill_23-2148748770.jpg?_wi=2"
       imageAlt="Professional roof inspection in San Diego"
       mediaAnimation="slide-up"
       avatars={[
@@ -181,7 +181,7 @@ export default function LandingPage() {
           description: "Your safety and property are fully protected.",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/full-shot-roofers-working-with-helmets_23-2149343708.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/full-shot-roofers-working-with-helmets_23-2149343708.jpg?_wi=2"
       imageAlt="Our expert team in San Diego"
       mediaAnimation="slide-up"
     />
@@ -196,19 +196,19 @@ export default function LandingPage() {
         {
           title: "Roof Inspection",
           description: "Detailed multi-point inspections for peace of mind.",
-          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-worker-with-helmet-working-roof_23-2149343663.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-worker-with-helmet-working-roof_23-2149343663.jpg?_wi=2",
           imageAlt: "Roof inspection service",
         },
         {
           title: "Emergency Repairs",
           description: "Quick response for leaks and storm damage.",
-          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-sitting-roof_23-2149343640.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-sitting-roof_23-2149343640.jpg?_wi=2",
           imageAlt: "Emergency repair service",
         },
         {
           title: "Full Replacement",
           description: "Professional installation of durable roof systems.",
-          imageSrc: "http://img.b2bpic.net/free-photo/photo-wood-texture-pattern_58702-13126.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/photo-wood-texture-pattern_58702-13126.jpg?_wi=2",
           imageAlt: "Roof installation service",
         },
       ]}
