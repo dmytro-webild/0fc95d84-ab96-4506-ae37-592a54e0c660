@@ -97,6 +97,7 @@ export default function LandingPage() {
           <SocialProofOne
             names={["Roofing Industry Certified", "San Diego Business Bureau", "Safety First Award"]}
             title="Proven Local Expertise"
+            description="We are recognized by top industry standards for quality and safety."
             textboxLayout="default"
             useInvertedBackground={false}
           />
