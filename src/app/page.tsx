@@ -3,11 +3,8 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
-import FaqSplitText from '@/components/sections/faq/FaqSplitText';
-import FeatureCardSeven from '@/components/sections/feature/FeatureCardSeven';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import HeroSplitTestimonial from '@/components/sections/hero/HeroSplitTestimonial';
-import MetricCardEleven from '@/components/sections/metrics/MetricCardEleven';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import SplitAbout from '@/components/sections/about/SplitAbout';
@@ -86,6 +83,7 @@ export default function LandingPage() {
         <div id="testimonials" data-section="testimonials">
           <TestimonialCardFive
             textboxLayout="split"
+            useInvertedBackground={false}
             title="5-Star Roofing Reviews"
             description="Hear from satisfied homeowners across San Diego."
             testimonials={[
@@ -99,6 +97,8 @@ export default function LandingPage() {
           <SocialProofOne
             names={["Roofing Industry Certified", "San Diego Business Bureau", "Safety First Award"]}
             title="Proven Local Expertise"
+            textboxLayout="default"
+            useInvertedBackground={false}
           />
         </div>
 
@@ -106,6 +106,7 @@ export default function LandingPage() {
           <ContactSplitForm
             title="Get a Free Estimate"
             description="Send us photos of your roof damage for a quicker assessment."
+            useInvertedBackground={false}
             inputs={[
               { name: "name", type: "text", placeholder: "Name" },
               { name: "email", type: "email", placeholder: "Email" }
